@@ -5,7 +5,7 @@ User guide:
 
     1. Running the program: To execute the program, run the main program file.
 
-    2. Entering training data: The program accepts training data in the form of attribute vectors describing the characteristics of iris flowers. These vectors can have varying lengths, and there is no limit to their number. Enter the training data according         to the instructions provided in the program.
+    2. Entering training data: The program accepts training data in the form of attribute vectors describing the characteristics of iris flowers. These vectors can have varying lengths, and there is no limit to their number. Enter the training data according to the instructions provided in the program.
 
     3. Perceptron training: After entering the training data, the program trains the perceptron using the delta algorithm.
 
