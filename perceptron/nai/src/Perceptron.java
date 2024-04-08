@@ -121,7 +121,7 @@ public class Perceptron {
             for (int j = 0; j < checkdata.get(i).length-1; j++) {
                 x+=weightVector[j]*Double.parseDouble(checkdata.get(i)[j]);
             }
-            x+=weightVector[checkdata.get(i).length-1]=theta;
+            x+=weightVector[checkdata.get(i).length-1]*theta;
             x=(x>=0)?1.0:0.0;
             if(checkscore[i]-x==0){
                 count++;
